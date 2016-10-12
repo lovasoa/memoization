@@ -2,8 +2,9 @@ function memoize(f) {
   var dict = {};
   return function() {
     var args = JSON.stringify(arguments);
+    var self = this;
     if(dict.hasOwnProperty(args)) return dict[args];
-    var res = f.apply(null, arguments);
+    var res = f.apply(self, arguments);
     dict[args] = res;
     return res;
   }
