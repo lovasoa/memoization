@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/lovasoa/memoization.svg?branch=master)](https://travis-ci.org/lovasoa/memoization)
 # memoization
 Straightforward implementation of memoization in javascript
 
