@@ -1,0 +1,32 @@
+{
+  "name": "memoization",
+  "version": "1.0.1",
+  "description": "Straightforward implementation of memoization.",
+  "main": "memoization.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lovasoa/memoization.git"
+  },
+  "keywords": [
+    "function",
+    "optimisation",
+    "optimization",
+    "recursive",
+    "table",
+    "lookup",
+    "caching",
+    "cache",
+    "memoization",
+    "memoize"
+  ],
+  "author": "lovasoa",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/lovasoa/memoization/issues"
+  },
+  "homepage": "https://github.com/lovasoa/memoization",
+  "devDependencies": { "test": ">=0.6.0" }
+}
