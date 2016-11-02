@@ -3,7 +3,7 @@ function memoize(f) {
   return function() {
     var args = JSON.stringify(arguments);
     if(dict.hasOwnProperty(args)) return dict[args];
-    var res = f.apply(null, arguments);
+    var res = f.apply(this, arguments);
     dict[args] = res;
     return res;
   }
